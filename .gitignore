@@ -1,0 +1,27 @@
+# Ignore node modules and environment files
+node_modules/
+# Environment variables
+.env
+.DS_Store
+# Logs
+
+*.log
+coverage/
+# Dependency directories
+
+.nyc_output/
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment overrides
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
