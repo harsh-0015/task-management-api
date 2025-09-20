@@ -440,4 +440,7 @@ CREATE TABLE tasks (
 6. Push to the branch: `git push origin feature-name`
 7. Submit a pull request
 
-// Also the email address and name which are passing 
+// In the context of the users the name and email address is required to workflow for the endpoints working else the result will be fail , if the email is already been used for initial time then also its fail 
+// The invalid form of the email address will led to depict the error fail , will be success 
+// The API can be tested with the required fields to pass in the postman as well , invalid details and missing field leds to fail 
+// Try creating the same user twice with same email will also led to the fail .
